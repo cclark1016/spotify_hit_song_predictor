@@ -6,7 +6,7 @@ I am researching the characteristics of songs that make them likely to become to
 ## Data Source
 I am using Spotify song data to train the ML model. The list of 175K+ songs being analyzed was pulled from a Kaggle dataset (https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks) built using Spotify APIs. To identify songs that are classified as hits I have grouped songs from the Billboard Top 100 Year End lists beginning in 1948 into a single Spotify playlist and exported that playlist into a Postgres DB. 
 ### Song Characteristics Imported
-Numerical:
+#### Numerical:
 - acousticness (Ranges from 0 to 1)
 - danceability (Ranges from 0 to 1)
 - energy (Ranges from 0 to 1)
@@ -20,11 +20,11 @@ Numerical:
 - speechiness (Ranges from 0 to 1)
 - year (Ranges from 1921 to 2020)
 
-Dummy:
+#### Dummy:
 - mode (0 = Minor, 1 = Major)
 - explicit (0 = No explicit content, 1 = Explicit content)
 
-Categorical:
+#### Categorical:
 - key (All keys on octave encoded as values ranging from 0 to 11, starting on C as 0, C# as 1 and so on…)
 - artists (List of artists mentioned)
 - release_date (Date of release mostly in yyyy-mm-dd format, however precision of date may vary)
