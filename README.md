@@ -34,4 +34,4 @@ Categorical:
 - Can a hit song be predicted with 80%+ accuracy based solely on song characteristics?
 - Do the characteristics of hit songs change based on the year they were released? 
 - Can top 100 songs from publications besides the Billboard be predicted with 80% accuracy based solely on song characteristics? How do the characteristics of top songs according to these publications vary?
--What combination of characteristics makes a song most likely to be a hit? 
+- What combination of characteristics makes a song most likely to be a hit? 
