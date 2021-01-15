@@ -1,4 +1,4 @@
-# spotify_hit_song_predictor
+#### https://public.tableau.com/profile/chris.clark4031#!/vizhome/Billboard_Visualizations/HitSongAnalysis
 
 ## Topic
 I am researching the characteristics of songs that make them likely to become top hits and whether those characteristics change over time. This information is important for both labels and artists as they fund and work through the creative song writing process.  
